@@ -1,0 +1,86 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+.maintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    font-size: 15pt;
+}
+.form input{
+    border-radius: 25px;
+}
+.form button{
+    border-radius: 15px;
+    background-color:antiquewhite;
+    color: blue;
+    font-size: 13pt;
+}
+.create{
+    margin-left: auto;
+}
+.create button{
+    border-radius: 15px;
+    color: yellow;
+    background-color: coral;
+    font-size: 13pt;
+}
+.allparts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.allparts a{
+    text-decoration: none;
+    color: black;
+}
+.kitchenandliving{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    justify-content: center;   
+}
+.officeandcompany{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    justify-content: center;
+}
+.about{
+    display: flex;
+}
+.about div{
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+.about div a{
+    text-decoration: none;
+    background-color:chocolate;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: larger;
+    color: yellow;
+}
